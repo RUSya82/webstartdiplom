@@ -1,0 +1,37 @@
+.header
+  margin-bottom: 69px
+  &__container
+    height: 100px
+    +flex-sb-center
+  &__right
+    +flex-fs-center()
+  &__menu
+    margin-right: 42px
+  &-menu
+    font-style: normal
+    font-weight: 600
+    font-size: 16px
+    &__list
+      +flex-sb()
+    &__item
+      margin-right: 22px
+  &__button
+    padding: 11px 31px
+    line-height: 22px
+
+.menu-button
+  +flex-sb-center(column)
+  padding: 0
+  background-color: transparent
+  border: none
+  width: 24px
+  height: 24px
+  &__line
+    width: 22px
+    height: 2.2px
+    background: #3A4C66
+.header
+  &__menu
+    &-button
+      display: none
+

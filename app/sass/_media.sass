@@ -1,0 +1,127 @@
+@media (max-width: 1200px)
+  .container
+    max-width: 960px
+  .book
+    &-description
+      &__header
+        font-size: 43px
+        line-height: 52px
+    &__text
+      margin-bottom: 45px
+    &-buttons
+      &__button
+        font-size: 13px
+        line-height: 22px
+        padding: 17px 30px
+        max-width: 190px
+    &-image
+      padding: 95px 115px
+@media (max-width: 992px)
+  .container
+    max-width: 710px
+  .book
+    &__container
+      flex-direction: column
+    &__description
+      margin-right: 0
+      margin-bottom: 60px
+    &-image
+      width: 95%
+      padding: 65px 90px
+      &__wrapper
+        width: 95%
+    &-buttons
+      &__button
+        font-size: 15px
+        width: 250px
+        max-width: 100%
+@media (max-width: 768px)
+  .container
+    max-width: 700px
+    width: 92%
+  .header
+    margin-bottom: 20px
+    &__right
+      display: none
+    &__menu
+      &-button
+        display: flex
+
+
+//@media (max-width: 700px)
+//
+@media (max-width: 580px)
+  .book
+    &-description
+      text-align: center
+      margin-bottom: 35px
+      &__header
+        font-size: 40px
+        line-height: 50px
+        max-width: 100%
+      &__text
+        margin-bottom: 30px
+      &__author
+        margin-bottom: 20px
+    &-buttons
+      flex-direction: column
+      align-items: center
+      &__button-buy
+        margin-right: 0
+        margin-bottom: 17px
+@media (max-width: 320px)
+  .header
+    margin-bottom: 16px
+  .menu-button
+    width: 20px
+    height: 19px
+    margin-right: 17px
+  .book
+    &-description
+      &__header
+        font-size: 33px
+        line-height: 41px
+        margin-bottom: 21px
+      &__author
+        font-size: 17px
+        margin-bottom: 30px
+      &__text
+        font-size: 17px
+        line-height: 23px
+        margin-bottom: 18px
+    &__description
+      margin-top: 0
+    &-buttons
+      &__button
+        width: 174px
+        padding: 7px 20px
+      &__button
+        &-buy
+          margin-bottom: 15px
+    &-image
+      padding: 60px 0
+      &__wrapper
+        width: 145px
+
+@media (min-width: 992px)
+  .site-button-white-blue
+    &:hover
+      color: #ffffff
+      background-color: $site-blue
+      //border: none
+  .site-button-blue-white
+    &:hover
+      background-color: transparent
+      //border: 2px solid $site-blue
+      color: $site-blue
+//@media (min-width: 992px)
+//  .hover-init
+//    &:hover
+//      color: $buttons-hover
+//  .site-button
+//    &:hover
+//      background-color: $buttons-hover
+//  .search
+//    &__btn
+//      &:hover
+//        background-color: $buttons-hover

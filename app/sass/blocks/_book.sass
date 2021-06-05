@@ -1,0 +1,61 @@
+.book
+  &__container
+    +flex-sb-center
+  &__description
+    margin-right: 67px
+    margin-top: -10px
+  &-image
+    &__wrapper
+      width: 250px
+      //height: 374px
+    &__img
+      width: 100%
+  &-description
+    &__header
+      font-family: 'Roboto Condensed', sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 48px
+      line-height: 59px
+      letter-spacing: 0.2px
+      color: $font-header-color-black
+      margin-bottom: 28px
+      max-width: 500px
+    &__category
+      color: #FAAD13
+    &__author
+      font-family: Roboto, sans-serif
+      font-style: normal
+      font-weight: 500
+      font-size: 20px
+      line-height: 24px
+      color: $font-header-color-black
+      margin-bottom: 36px
+      text-transform: uppercase
+    &__text
+      font-family: 'Open Sans', sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 32px
+      color: $font-grey
+      margin-bottom: 56px
+  &-image
+    +flex-center-center
+    background-color: $background-grey
+    padding: 103px 119px
+  &-buttons
+    +flex
+    &__button
+      text-transform: uppercase
+      max-width: 250px
+      overflow: hidden
+    &__button-buy
+      padding: 15px 41px
+      font-size: 15px
+      line-height: 22px
+      margin-right: 26px
+    &__button-read
+      padding: 14px 49px
+      font-size: 18px
+      line-height: 25px

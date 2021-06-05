@@ -1,0 +1,51 @@
+=flex($direction: row)
+  display: flex
+  flex-direction: $direction
+
+=flex-fs($direction: row)
+  +flex($direction)
+  justify-content: flex-start
+
+=flex-fe($direction: row)
+  +flex($direction)
+  justify-content: flex-end
+
+=flex-center($direction: row)
+  +flex($direction)
+  justify-content: center
+
+=flex-sb($direction: row)
+  +flex($direction)
+  justify-content: space-between
+
+=flex-sa($direction: row)
+  +flex($direction)
+  justify-content: space-around
+
+=flex-ev($direction: row)
+  +flex($direction)
+  justify-content: space-evenly
+
+=flex-center-center($direction: row)
+  +flex-center($direction)
+  align-items: center
+
+=flex-sb-center($direction: row)
+  +flex-sb($direction)
+  align-items: center
+
+=flex-sa-center($direction: row)
+  +flex-sa($direction)
+  align-items: center
+
+=flex-fs-center($direction: row)
+  +flex-fs($direction)
+  align-items: center
+
+=flex-fe-fs($direction: row)
+  +flex-fe($direction)
+  align-items: flex-start
+
+=no-wrap
+  display: flex
+  flex-wrap: nowrap

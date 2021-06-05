@@ -1,0 +1,34 @@
+{
+  "name": "eval",
+  "version": "1.0.0",
+  "description": "eval site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.7.4",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.14",
+    "core-js": "^3.4.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "webpack": "^4.41.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "imagesloaded": "^4.1.4",
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.6.2"
+  }
+}
